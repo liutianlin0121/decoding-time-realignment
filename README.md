@@ -1,5 +1,8 @@
 # DeRa: Decoding-time Realignment of Language Models
 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1s9hY3x3WtpCZMKSTCzm1xif0B2FTNnOt?usp=sharing)
+
 DeRa is a simple method to explore and evaluate different regularization strengths in RLHF-aligned models without the need of retraining. 
 
 Two main use cases of DeRa are:
@@ -7,12 +10,10 @@ Two main use cases of DeRa are:
 - identify promising regularization strengths to retrain a model, without expensive hyperparameter sweeps
 
 
-In the colab notebook below, you'll find a reference implementation of DeRa with HuggingFace transformers. Specifically, we demonstrate how to apply DeRa to the [Zephyr-7b model](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta), showing its ability adjust the alignment levels of language models at decoding time.
+In the colab notebook link above, you'll find a reference implementation of DeRa with HuggingFace transformers 🤗. Specifically, we demonstrate the application of DeRa to the [Zephyr-7b model](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta), showing its ability to adjust the alignment levels of language models at decoding time.
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1s9hY3x3WtpCZMKSTCzm1xif0B2FTNnOt?usp=sharing)
-
-Please find more details in our [paper](https://arxiv.org/abs/2402.02992), accepted to ICML 2024:
+Please find more details in our [paper](https://arxiv.org/abs/2402.02992), accepted for a spotlight presentation at ICML 2024:
 
 ```bibtex
 @inproceedings{Liu2024decoding,
